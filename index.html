@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/ninja_gl.loader.js";
+      var loaderUrl = buildUrl + "/WebGL_Ninja.loader.js";
       var config = {
-        dataUrl: buildUrl + "/ninja_gl.data.gz",
-        frameworkUrl: buildUrl + "/ninja_gl.framework.js.gz",
-        codeUrl: buildUrl + "/ninja_gl.wasm.gz",
+        dataUrl: buildUrl + "/WebGL_Ninja.data.gz",
+        frameworkUrl: buildUrl + "/WebGL_Ninja.framework.js.gz",
+        codeUrl: buildUrl + "/WebGL_Ninja.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Group1",
         productName: "NinjaGame",
@@ -53,8 +53,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
